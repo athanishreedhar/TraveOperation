@@ -16,4 +16,8 @@ public class ExtentReportUtility  {
 	public void onSkip() {
 		System.out.println("some code on test skip");
 	}
+	
+	public void TakeScreenshot() {
+		System.out.println("some code on test failure to take screenshot");
+	}
 }
